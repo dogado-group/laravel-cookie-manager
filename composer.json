@@ -1,26 +1,27 @@
 {
-    "name": "dogado/laravel-cookie-manager",
-    "description": "dogado cookie manager library with different capabilities to modify cookies",
-    "type": "library",
-    "license": "MIT",
-    "require": {
-		"php": "^7.3|^8.0",
-        "cbschuld/browser.php": "^1.9",
-        "symfony/http-foundation": "^4.2|^5.0"
-    },
-    "require-dev": {
-        "mockery/mockery": "^1.4",
-        "fakerphp/faker": "^1.14",
-        "phpunit/phpunit": "^9.3"
-    },
-    "autoload": {
-        "psr-4": {
-            "Dogado\\Laravel\\CookieManager\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "App\\Tests\\": "tests/"
-        }
+  "name": "dogado/laravel-cookie-manager",
+  "description": "cookie manager library with different capabilities to modify cookies",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/dogado-group/laravel-cookie-manager",
+  "require": {
+    "php": "^7.3|^8.0",
+    "cbschuld/browser.php": "^1.9",
+    "symfony/http-foundation": "^4.2|^5.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.4",
+    "fakerphp/faker": "^1.14",
+    "phpunit/phpunit": "^9.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dogado\\Laravel\\CookieManager\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Tests\\": "tests/"
+    }
+  }
 }

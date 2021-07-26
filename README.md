@@ -20,6 +20,7 @@ A client library package for Laravel based projects, maintained by the [dogado G
 * `symfony/http-foundation` version `^4.2` or `^5.0`
 
 ## Steps to configure
+
 ### Checkout
 Include this package into the project:
 ```
@@ -31,3 +32,7 @@ Add the following class according to your needs to the appropriate Laravel kerne
 ```
 \Dogado\Laravel\CookieManager\Http\Middleware\SecureResponseCookies::class
 ```
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
