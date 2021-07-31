@@ -16,8 +16,8 @@ dogado Cookie Manager for Laravel
 A client library package for Laravel based projects, maintained by the [dogado GmbH](https://dogado.de).
 
 ## Requirements
-* php 7.3
-* `symfony/http-foundation` version `^4.2` or `^5.0`
+* php `^7.3` or `^8.0`
+* `symfony/http-foundation` version `^4.4` or `^5.0`
 
 ## Steps to configure
 
