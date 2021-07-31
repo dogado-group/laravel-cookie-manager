@@ -18,17 +18,17 @@ class BrowserPolicy
     {
         switch ($this->browser->getBrowser()) {
             case Browser::BROWSER_CHROME:
-                return $this->browserVersionGreaterThen(51);
+                return $this->browserVersionGreaterThan(51);
             case Browser::BROWSER_FIREFOX:
-                return $this->browserVersionGreaterThen(60);
+                return $this->browserVersionGreaterThan(60);
             case Browser::BROWSER_OPERA:
-                return $this->browserVersionGreaterThen(39);
+                return $this->browserVersionGreaterThan(39);
             default:
                 return false;
         }
     }
 
-    private function browserVersionGreaterThen(int $versionToCheck): bool
+    private function browserVersionGreaterThan(int $versionToCheck): bool
     {
         $matches = null;
         if (!preg_match('/^(?<mainVersion>\d+)/', $this->browser->getVersion(), $matches)) {
