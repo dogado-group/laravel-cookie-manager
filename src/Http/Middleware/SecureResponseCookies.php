@@ -59,14 +59,20 @@ class SecureResponseCookies
     protected function getSecureDuplicatedCookie(Cookie $cookie, bool $setSecureAttribute): Cookie
     {
         $sameSite = $cookie->getSameSite();
-        if ($this->browserPolicy->canHaveAttributeSameSite() && $setSecureAttribute) {
+        if ($this->browserPolicy && $this->browserPolicy->canHaveAttributeSameSite() && $setSecureAttribute) {
             $sameSite = Cookie::SAMESITE_NONE;
         }
 
         return new Cookie(
-            $cookie->getName(), $cookie->getValue(), $cookie->getExpiresTime(),
-            $cookie->getPath(), $cookie->getDomain(), $setSecureAttribute,
-            $cookie->isHttpOnly(), $cookie->isRaw(), $sameSite
+            $cookie->getName(),
+            $cookie->getValue(),
+            $cookie->getExpiresTime(),
+            $cookie->getPath(),
+            $cookie->getDomain(),
+            $setSecureAttribute,
+            $cookie->isHttpOnly(),
+            $cookie->isRaw(),
+            $sameSite
         );
     }
 }

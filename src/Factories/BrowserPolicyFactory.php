@@ -1,4 +1,5 @@
 <?php
+
 namespace Dogado\Laravel\CookieManager\Factories;
 
 use Dogado\Laravel\CookieManager\Policies\BrowserPolicy;
