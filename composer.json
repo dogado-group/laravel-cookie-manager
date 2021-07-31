@@ -10,9 +10,8 @@
     "symfony/http-foundation": "^4.2|^5.0"
   },
   "require-dev": {
-    "mockery/mockery": "^1.4",
     "fakerphp/faker": "^1.14",
-    "phpunit/phpunit": "^9.3"
+    "phpunit/phpunit": "^9.5"
   },
   "autoload": {
     "psr-4": {
