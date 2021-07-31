@@ -12,9 +12,8 @@ dogado Cookie Manager for Laravel
 
 1. [Introduction](#introduction)
 1. [Requirements](#requirements)
-1. [Steps to configure](#steps-to-configure)
-   - [Checkout](#checkout)
-   - [Load Class into your config](#load-class-into-your-config)
+1. [Installation](#installation)
+   - [Configure your Kernel to use the middleware](#configure-your-kernel-to-use-the-middleware)
 
 <!-- /TOC -->
 
