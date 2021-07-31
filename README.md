@@ -1,6 +1,13 @@
 dogado Cookie Manager for Laravel
 ===============
 
+[![phpunit](https://github.com/dogado-group/laravel-cookie-manager/actions/workflows/phpunit.yml/badge.svg)](https://github.com/dogado-group/laravel-cookie-manager/actions/workflows/phpunit.yml)
+[![Coverage Status](https://coveralls.io/repos/github/dogado-group/laravel-cookie-manager/badge.svg?branch=main)](https://coveralls.io/github/dogado-group/laravel-cookie-manager?branch=main)
+[![Total Downloads](https://poser.pugx.org/dogado/laravel-cookie-manager/downloads)](https://packagist.org/packages/dogado/laravel-cookie-manager)
+[![Latest Stable Version](https://poser.pugx.org/dogado/laravel-cookie-manager/v/stable)](https://packagist.org/packages/dogado/laravel-cookie-manager)
+[![Latest Unstable Version](https://poser.pugx.org/dogado/laravel-cookie-manager/v/unstable.png)](https://packagist.org/packages/dogado/laravel-cookie-manager)
+[![License](https://poser.pugx.org/dogado/laravel-cookie-manager/license)](https://packagist.org/packages/dogado/laravel-cookie-manager)
+
 <!-- TOC -->
 
 1. [Introduction](#introduction)
