@@ -7,7 +7,7 @@
   "require": {
     "php": "^7.3|^8.0",
     "cbschuld/browser.php": "^1.9",
-    "symfony/http-foundation": "^4.4|^5.0"
+    "symfony/http-foundation": "^4.4.30|^5.3.7"
   },
   "require-dev": {
     "fakerphp/faker": "^1.14",
