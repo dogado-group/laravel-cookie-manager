@@ -32,7 +32,7 @@ To learn more about `SameSite` cookies and how to use them, check out the
 
 ## Requirements
 * php `^7.3` or `^8.0`
-* `symfony/http-foundation` version `^4.4` or `^5.0`
+* `symfony/http-foundation` version `^5.3.7` or `^6.0`
 
 ## Installation
 
